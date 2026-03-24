@@ -1,0 +1,11 @@
+#playbtn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: opasity 0.5s, transform 1s;
+}

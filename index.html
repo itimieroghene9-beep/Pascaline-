@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="happy birthday my heart">
+    <title>happy birthday</title>
+    <link rel="icon" href="/Important stufff/IMG-20250921-WA0136.jpg" type="image/x-icon">
+    <style>
+        body{
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            background: palevioletred;
+            overflow: hidden;
+            color: white;
+        }
+        .slide{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        img,video{
+            position:absolute ;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        .active{
+            opacity: 1;
+            z-index: 1;
+        }
+        .letter{
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: 25px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .overlay h2{
+            margin-bottom: 10px;
+        }
+        .overlay p {
+            font-size: 18px;
+        }
+        @keyframes floatup{
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            100%{
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <audio id="music" loop>
+        <source src="/music.mp3" type="audio/mpeg">
+    </audio>    
+    <script>
+        window.addEventListener ("load",
+            function() {
+                const music =
+                document.getElementById("music");
+                music.play().catch(() => {
+                    document.body.addEventListener("click",()  => {music.play()})
+                },{once:true}
+            )
+            }
+        )
+    </script>
+    <div class="bg">
+        <img src="/Important stufff/Snapchat-1354098410.jpg" class="active">
+        <img src="/Important stufff/IMG-20251031-WA0053.jpg">
+        <img src="/Important stufff/Notes_260110_163429_c38.jpg">
+        <video src="/Important stufff/Snapchat-1946299895.mp4" muted loop autoplay></video>
+        <img src="/Important stufff/Screenshot_20260323_210411_WhatsApp.jpg">
+        <img src="/Important stufff/Screenshot_20260323_210420_WhatsApp.jpg">
+        <video src="/Important stufff/Snapchat-1386903166.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-2115936636.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-2039028231.mp4" muted loop autoplay></video>
+        <img src="/Important stufff/Snapchat-1770076939.jpg">
+        <img src="/Important stufff/IMG-20250921-WA0136.jpg">
+        <img src="/Important stufff/Snapchat-1258497007.jpg">
+        <img src="/Important stufff/IMG-20251031-WA0095.jpg">
+        <video src="/Important stufff/Snapchat-840046469.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250918-WA0135.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250903-WA0028.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-2113075070.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1441705410.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/20250913_122804.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250921-WA0148.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1115083085.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1185167866.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1145337961.mp4" muted loop autoplay></video>
+        <img src="/Important stufff/IMG-20251031-WA0083.jpg">
+        <img src="/Important stufff/20251024_150141.jpg">
+        <img src="/Important stufff/Screenshot_20251218_211716_WhatsApp.jpg">
+        <img src="/Important stufff/IMG-20251031-WA0059.jpg">
+        <img src="/Important stufff/Snapchat-1530706999.jpg">
+        <video src="/Important stufff/Snapchat-1878232924.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250612-WA0030.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250806-WA0101.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20251031-WA0145.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-672202495.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-935988270.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1287629738.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1323452018.mp4" muted loop autoplay></video>
+        <img src="/Important stufff/IMG-20251027-WA0097.jpg">
+        <img src="/Important stufff/IMG-20250921-WA0146.jpg">
+        <img src="/Important stufff/Snapchat-1172578032.jpg">
+        <video src="/Important stufff/Snapchat-1496006258.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1660879520.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/VID-20250921-WA0150.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-341872263.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-2113075070.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-976067049.mp4" muted loop autoplay></video>
+        <img src="/Important stufff/Snapchat-612920269.jpg">
+        <video src="/Important stufff/Snapchat-127364309.mp4" muted loop autoplay></video>
+        <video src="/Important stufff/Snapchat-1175634771.mp4" muted loop autoplay></video>
+    </div>
+    <script>
+        let slides = 
+        document.querySelectorAll(".bg img, .bg video")
+        let i = 0
+        function changeSlides(){
+            let current = slides[i];
+            i = (i + 1) % slides.length;
+            let next = slides[i];
+
+            next.classList.add("active");
+
+            if (next.tagName === "video") {
+                next.play();
+            }
+
+            setTimeout(() => {
+               current.classList.remove("active");
+               if ( current.tagName === "video") {
+                next.play();
+               }
+               setTimeout(() => {
+                current.classList.remove("active");
+                      if ( current.tagName === "video"){
+                        current.pause();
+                        current.currentTime = 0;
+                      }
+               },500)
+        })
+        }
+        setInterval(changeSlides, 2500);
+    </script>
+    <div class="overlay">
+        <h2>Heyy sweet heart❤️❤️💖😫😫</h2>
+        <p>i hope you see the letter ML i wish you happy birthday</p>
+        <p>may God contineu to bless you and keep that amazing heart❤️❤️</p>
+        <p>im lost in words babyy but i really love you</p>
+        <p>maybe not all love letters needs letters</p>
+        <p>keep smiling MY LOVE💖💖💖</p>
+    </div>
+</body>
+</html>
